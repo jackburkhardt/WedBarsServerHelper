@@ -1,0 +1,18 @@
+name: WedBarsServerHelper
+version: 0.0.1
+main: com.jackburkhardt.plugins.WedBarsServerHelper.WedBarsServerHelper
+author: TwelvePointFive
+description: Helper plugin to run bedwars test games
+website: https://jackburkhardt.com/
+depend: [Multiverse-Core]
+
+commands:
+  maps:
+    description: Lists all installed maps.
+  sendtomap:
+    description: Sends all players to a given map.
+    permission: wbhelper.warp
+    permission-message: You must be an admin to use this command.
+permissions:
+  wbhelper.warp:
+    default: op
